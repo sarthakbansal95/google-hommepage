@@ -1,113 +1,65 @@
-body{
-    font-family: arial,sans-serif;
-    margin: 0;
-}
-.mic{
-    width:15px;
-    position: absolute;
-    top: 269px;
-    right: 380px;
-    z-index: 1;
-    height: 20px;
-    width: 20px;
-}
-.container{
-    line-height: 0;
-}
-.dot1{
-    margin: 1px;
-    padding: 0;
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-    background-color: rgb(128,128,128) ;
-   
-}
-.gmail{
-    margin-left: 15px;
-    margin-right: 25px;
-    style: normal;
-    weight: 400;
-    size: 13px;
-    margin-top: 20px;
-    margin-right: 75px;
-    text-align: end;   
-    padding: 2px 9px 5px 5px; 
-}
-.google{
-    
-    width: 272px;
-    height: 92px;
-    position: absolute;
-    top: 147px;
-    left: 547px;
-}
-.google-search{
-    font-family: arial,sans-serif;
-    background-color: rgb(244, 244, 244);
-    color: #5F6368;                /*168 168 168 */
-    width:10%;
-    height:3em;
-    border-width: 1px;
-    border-color: rgb(250, 250, 250);
-    border-radius: 5px;
-    background-image: GooglemicN();
-    position: absolute;
-    top: 345px;
-    left: 540px;
+body {
+  font-family: arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
 }
 
-.mcontainer{
-    position: absolute;
-    display: inline;
-    margin-left: 1300px;
-}
-.lucky{
-    background-color: rgb(244, 244, 244);
-    color: #5F6368;
-    width:10%;
-    height:3em;
-    border-width: 1px;
-    border-color: white;
-    border-radius: 5px;
-    position: absolute;
-    top: 345px;
-    left: 690px;
+/*************  CLASSES *****************/
+
+.wrapper-first {
+  color: #222222;
+  margin-top: 25px;
+  text-align: right;
+  margin-right: 20px;
 }
 
-.s{ 
-    border-radius: 50%;
-    display: inline;
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid;
-    border-color: green;
-  
-}
-.search-bar{
-   
-    position: left;
-    background-repeat: no-repeat;
-    border: 0.5px solid rgb(211, 211, 211);
-    display: block;
-    width: 43%;
-    padding: 1%;
-    border-radius: 5em;
-    position: absolute;
-    top: 260px;
-    left: 380px;
-} 
-
-
-.search-icon{
-    width:20px;
-    position: absolute;
-    top: 271px;
-    left: 392px;
+.google-logo {
+  display: block;
+  width: 17rem;
+  margin: 7rem auto 1rem;
 }
 
+.third-div {
+  display: block;
+  height: 45px;
+  width: 575px;
+  border: 1px rgb(229, 229, 229) solid;
+  border-radius: 25px;
+  margin: auto;
+}
 
-/*  last three classes */
+.search-icon {
+  height: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.google-mic {
+  float: right;
+  clear: right;
+  margin-top: 10px;
+  margin-right: 15px;
+  background-size: 15px 15px;
+}
+
+.fourth-div {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  cursor: pointer;
+  border: 0;
+  border-radius: 0.25rem;
+  background-color: #f7f4f4;
+  color: #656768;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 8rem;
+}
 
 /************ last three classes */
 
